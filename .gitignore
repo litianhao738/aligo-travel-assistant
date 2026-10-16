@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+.venv*/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# AgentScope
+.agentscope/
+.claude/settings.local.json
+.claude/claudian-settings.json
+
+# Local credentials
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+
+# Data
+data/rag_knowledge/
+data/models/
+data/memory/
+data/preferences/*.json
+!data/preferences/.gitkeep
+*.db
+*.db-shm
+*.db-wal
+
+# Generated test conversations
+tests/results/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
